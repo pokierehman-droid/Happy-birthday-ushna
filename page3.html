@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Page</title>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #d4a017; /* dark yellow */
+  font-family: Arial;
+  text-align: center;
+  color: white;
+}
+
+/* Big Title */
+h1 {
+  font-size: 45px;
+  margin-top: 20px;
+  text-shadow: 0 0 10px black;
+}
+
+/* Gallery */
+.img {
+  width: 180px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+/* Video */
+video {
+  width: 260px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+/* Memory box */
+.memory {
+  margin: 15px;
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+
+/* Birthday animation */
+.bday {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 120px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- 🎂 Animated Sticker -->
+<img src="https://i.imgur.com/3Y5QZQp.gif" class="bday">
+
+<h1>❤️ I LOVE YOU POKIE ❤️</h1>
+
+<div class="memory">
+💛 Our Beautiful Memories 💛  
+May Allah always keep you happy ✨
+</div>
+
+<!-- 🖼️ Images (your uploaded ones) -->
+<img src="file_000000004a5c72469d0006c18b9b28e9" class="img">
+<img src="file_000000009d98720a9c8ce843892e3568" class="img">
+<img src="file_000000004114720a9551e4a0299660d1" class="img">
+<img src="file_00000000427871f4868ae6903aae0853" class="img">
+
+<!-- 🎥 Video -->
+<video controls>
+  <source src="file_00000000dd50720a818a51f9eeddad70.mp4" type="video/mp4">
+</video>
+
+<!-- 🎵 Music -->
+<audio autoplay loop>
+  <source src="happy-birthday.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
